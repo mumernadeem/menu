@@ -27,6 +27,8 @@ class _MyHomePageState extends State<MyHomePage> {
         leading: Icon(
           Icons.arrow_left_sharp,color: Colors.white,size: 30,
         ),
+        centerTitle: true,
+        title: Text('Yoga training'),
         actions: [
           IconButton(icon: Icon(Icons.menu,color: Colors.white,), onPressed: (){})
         ],
